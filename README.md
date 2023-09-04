@@ -61,3 +61,9 @@ You can also disable bool and number casting with:
 `Objection.cast_bool` and `Objection.cast_number`.
 
 You can also use those in the `args` argument.
+
+You can escape assigner and separator chars using two `\`:
+
+```js
+Objection.parse(`math = 2 + 2 \\= 4`)
+```
