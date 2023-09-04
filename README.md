@@ -68,4 +68,4 @@ You can escape assigner and separator chars using two `\`:
 Objection.parse(`math = 2 + 2 \\= 4`)
 ```
 
-It will auto unescape on parse and stringify.
+It will auto un/escape on parse and stringify.
