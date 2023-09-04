@@ -1,4 +1,4 @@
-This is a simple library to add parsing for simple objects
+This is a simple library to add parsing for simple objects.
 
 For example:
 
