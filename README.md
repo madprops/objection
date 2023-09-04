@@ -67,3 +67,5 @@ You can escape assigner and separator chars using two `\`:
 ```js
 Objection.parse(`math = 2 + 2 \\= 4`)
 ```
+
+It will auto unescape on parse and stringify.
