@@ -30,7 +30,7 @@ Properties are separated by semicolons.
 
 These can be configured by changing the variables:
 
-`Objection.assigner` and `Objection.separator`
+`Objection.assigner` and `Objection.separator`.
 
 To remove spacing set `Objection.spacing` to false.
 
