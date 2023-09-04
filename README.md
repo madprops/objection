@@ -18,6 +18,12 @@ Will be parsed into:
 {name: `swordfish`, level: 5, equipped: true}
 ```
 
+And in reverse:
+
+```js
+let str = Objection.stringify(obj)
+```
+
 It auto casts numbers and booleans.
 
 The rest is turned to strings.
