@@ -1,7 +1,7 @@
 // Objection v1.0
 
 // This is a simple library to add parsing for simple objects
-// For example: str = `name = Swordfish ; level = 5 ; equipped = true`
+// For example: let str = `name = Swordfish ; level = 5 ; equipped = true`
 // You can do: let obj = Objection.parse(str)
 // Will be parsed into {name: `Swordfish`, level: 5, equipped: true}
 // It auto casts numbers and booleans
