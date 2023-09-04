@@ -32,7 +32,7 @@ These can be configured by changing the variables:
 
 `Objection.assigner` and `Objection.separator`.
 
-To remove spacing set `Objection.spacing` to false.
+To remove spacing on `stringify` set `Objection.spacing` to false.
 
 Use this when you need simple concise declarations...
 
