@@ -43,3 +43,15 @@ To remove spacing on `stringify` set `Objection.spacing` to false.
 Use this when you need simple concise declarations...
 
 instead of verbose syntax like json.
+
+Both functions accept a second argument, an object called `args`.
+
+You can use this to override `Objection.assigner`, `Objection.separator`, and `Objection.spacing`.
+
+For example:
+
+```js
+Objection.stringify(obj, {assigner: `:`, separator: `@`, spacing: false})
+```
+
+You don't need to provide all of them, just what you need.
