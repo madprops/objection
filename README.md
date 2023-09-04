@@ -58,7 +58,7 @@ You don't need to provide all of them, just what you need.
 
 You can also disable bool and number casting with:
 
-`Objection.cast_bool` and `Objection.cast_number`.
+`Objection.cast_bool = false` and `Objection.cast_number = false`.
 
 You can also use those in the `args` argument.
 
