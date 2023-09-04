@@ -24,7 +24,7 @@ And in reverse:
 let str = Objection.stringify(obj)
 ```
 
-It auto casts numbers and booleans.
+It auto-casts numbers and booleans. (optional).
 
 The rest is turned to strings.
 
@@ -55,3 +55,9 @@ Objection.stringify(obj, {assigner: `:`, separator: `@`, spacing: false})
 ```
 
 You don't need to provide all of them, just what you need.
+
+You can also disable bool and number casting with:
+
+`Objection.cast_bools` and `Objection.cast_numbers`.
+
+You can also use those in the `args` argument.
