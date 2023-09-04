@@ -33,5 +33,3 @@ These can be configured by changing the variables:
 Use this when you need simple concise declarations...
 
 instead of verbose syntax like json.
-
-![](https://i.imgur.com/Q8lBPJN.jpg)
